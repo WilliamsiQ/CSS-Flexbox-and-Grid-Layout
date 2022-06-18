@@ -1,0 +1,78 @@
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    Font-size: 15px; 
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: fixed;
+    padding: 50px;
+    height: 50vh;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+      
+
+}
+@media screen and (max-width: 375px) {
+    .sedbut {
+      background-color: hsl(31, 77%, 52%);
+      color: hsl(0, 0%, 95%);
+    }
+    .suvbut {
+        background-color: hsl(184, 100%, 22%);
+        color: hsl(0, 0%, 95%);
+    }
+    .luxbut {
+        background-color:hsl(179, 100%, 13%) ;
+        color: hsl(0, 0%, 95%);
+    }
+  }
+  
+  
+
+.grid-child {
+    flex: 1;
+    border: 2px ;
+    text-align: center;
+}
+.image {
+    display: flex;
+    align-content: flex-start;
+}
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+p {
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+button, h1 {
+    color:hsl(0, 0%, 95%);
+}
+button {
+    background-color: hsl(0, 0%, 95%) ;;
+    border-radius: 20px;
+    border-color: hsl(0, 0%, 95%) ;
+}
+.luxbut {
+    color: hsl(179, 100%, 13%);
+}
+.suvbut {
+    color:hsl(184, 100%, 22%);
+}
+.sedbut {
+    color: hsl(31, 77%, 52%);;
+
+}
